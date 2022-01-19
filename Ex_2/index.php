@@ -111,7 +111,7 @@
     try {
 
     $p1 = new Computer("501200", 1390);
-    $p1 -> setModel("Gallardo");
+    $p1 -> setModel("GallardoGallardoGalo");
     $p1 -> setBrand("Lamborghini");
     $p1 -> printFullPerson();
 
