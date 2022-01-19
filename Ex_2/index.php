@@ -62,7 +62,7 @@
         }
         public function setModel($model) {
 
-            if(strlen($model) > 3 || strlen($model) < 20)
+            if(strlen($model) < 3 || strlen($model) > 20)
             throw new Exception("Devono essere costituiti da stringhe tra i 3 e i 20 caratteri");
             
             $this -> model = $model;
@@ -86,7 +86,7 @@
         }
         public function setBrand($brand) {
 
-            if(strlen($brand) > 3 || strlen($brand) < 20)
+            if(strlen($brand) < 3 || strlen($brand) > 20)
             throw new Exception("Devono essere costituiti da stringhe tra i 3 e i 20 caratteri");
 
             $this -> brand = $brand;
